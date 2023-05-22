@@ -3,7 +3,7 @@ import mysql.connector
 import pandas as pd
 
 con = mysql.connector.connect(
-    host='localhost', database='projeto1', user='root', password='1234')
+    host='localhost', database='projeto1', user='root', password='****')
 if con.is_connected():
     cursor = con.cursor()
     cursor.execute("""
